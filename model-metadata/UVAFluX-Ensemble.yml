@@ -1,6 +1,6 @@
-team_name: "UVAFluX-Ensemble"
+team_name: "UVAFluX"
 team_abbr: "UVAFluX"
-model_name: "Ensemble of statistical and deep learning models"
+model_name: "Ensemble"
 model_abbr: "Ensemble"
 model_version: "1.0"
 model_contributors: [
@@ -8,11 +8,6 @@ model_contributors: [
     "name": "Aniruddha Adiga",
     "affiliation": "UVA",
     "email": "aniruddha@virginia.edu"
-  },
-  {
-    "name": "Benjamin Hurt",
-    "affiliation": "UVA",
-    "email": "benjaminhurt@virginia.edu"
   },
   {
     "name": "Gursharn Kaur",
@@ -35,11 +30,6 @@ model_contributors: [
     "email": "srini@virginia.edu"
   },
   {
-    "name": "Lacey Critchley",
-    "affiliation": "UVA",
-    "email": "lcritchley@virginia.edu"
-  },
-  {
     "name": "Brian Klahn",
     "affiliation": "UVA",
     "email": "briandk@virginia.edu"
@@ -49,9 +39,7 @@ website_url: "https://biocomplexity.virginia.edu/institute/divisions/network-sys
 license: "CC-BY-4.0"
 citation: "citation"
 team_funding: "funding"
-include_viz: true
-include_ensemble: true
-include_eval: true
+designated_model: true
 methods: "An ensemble of multiple statistical and deep learning models."
 data_inputs: "Daily and weekly incident flu hospitalizations from HHS"
 methods_long: "This is a US national and state-level multi-method model
